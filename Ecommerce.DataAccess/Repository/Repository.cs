@@ -26,6 +26,9 @@ namespace Ecommerce.DataAccess.Repository
             //we need to save it and then use it
             //and db.Categories == dbSet
             this.dbSet = _db.Set<T>();
+
+            //Loading Navigation Properties
+            _db.Products.Include(u => u.Category).Include(u => u.CategoryId);
         }
         public void Add(T entity)
         {
@@ -33,7 +36,7 @@ namespace Ecommerce.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
             //we have the complete DB set that we have assigned here.
             //Then on the query we can apply a where condition and I can pass the filter.
@@ -41,13 +44,29 @@ namespace Ecommerce.DataAccess.Repository
 
             //whatever condition we have, it will apply that on a where condition and it will have the query ready for that.
             query = query.Where(filter);
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+                }
+            }
+
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll()
+        //if there are more than one include properties, we can add them as a comma
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             //Iquerable contains query against the complete dataset
             IQueryable<T> query = dbSet;
+            if(!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach(var includeProp in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProp);
+                }
+            }
             return query.ToList();
         }
 
