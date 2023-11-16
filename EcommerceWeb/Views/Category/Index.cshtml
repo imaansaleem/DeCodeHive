@@ -1,0 +1,57 @@
+﻿@model  List<Category>
+
+<!--
+Object placing from view
+write model + What is type of model-->
+
+    <div class="container">
+        <!--row have 12 columns in bootstrap-->
+        <!--pt-4 = padding top of 4-->
+        <div class="row pt-4">
+            <div class = "col-6">
+                <h2 class = "text-primary">
+                    Category List
+                </h2>
+            </div>
+            <!--textend floats left element-->
+            <div class = "col-6 text-end">
+                <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                    <!--To make this button functional we need action method in controller to call view-->
+                    <i class="bi bi-database-add"></i> Create a New Category
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!--
+    This code will from bootstrap
+    table: This class is a base class for applying basic table styling.
+    table-bordered: This class adds borders around the table and its cells.
+    table-striped: This class alternates the background color of rows
+-->
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Category Name
+            </th>
+            <th>
+                Display Order
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--
+        C# in view can be written as
+        This code will iterate through the model that we have defined on the page
+        Order By will show the property DisplayOrder in Ascending order
+        -->
+        @foreach(var obj in Model.OrderBy(u=>u.DisplayOrder))
+        {
+            <tr>
+                <td>@obj.Name</td> 
+                <td>@obj.DisplayOrder</td>
+            </tr>
+        }
+    </tbody>
+</table>
