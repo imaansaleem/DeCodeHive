@@ -28,7 +28,7 @@ namespace Ecommerce.DataAccess.Repository
             this.dbSet = _db.Set<T>();
 
             //Loading Navigation Properties
-            _db.Products.Include(u => u.Category).Include(u => u.CategoryId);
+            //_db.Products.Include(u => u.Category).Include(u => u.CategoryId);
         }
         public void Add(T entity)
         {

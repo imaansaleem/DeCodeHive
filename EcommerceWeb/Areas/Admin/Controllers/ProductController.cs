@@ -151,7 +151,7 @@ namespace EcommerceWeb.Areas.Admin.Controllers
             }
         }
 
-
+        //for database filters
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll() 
