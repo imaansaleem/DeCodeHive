@@ -1,0 +1,22 @@
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.deps.json
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfoInputs.cache
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfo.cs
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.csproj.CoreCompileInputs.cache
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\refint\Ecommerce.Utility.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\ref\Ecommerce.Utility.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.deps.json
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfoInputs.cache
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfo.cs
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.csproj.CoreCompileInputs.cache
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\refint\Ecommerce.Utility.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\ref\Ecommerce.Utility.dll

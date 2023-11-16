@@ -1,0 +1,77 @@
+﻿@model  List<Category>
+
+<!--
+Object placing from view
+write model + What is type of model-->
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary mt-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Category List</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <!--row have 12 columns in bootstrap-->
+        <!--pt-4 = padding top of 4-->
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <!--textend floats left element-->
+            <div class="col-6 text-end">
+                <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+                    <!--To make this button functional we need action method in controller to call view-->
+                    <i class="bi bi-database-add"></i> Create a New Category
+                </a>
+            </div>
+        </div>
+
+        <!--
+            This code will from bootstrap
+            table: This class is a base class for applying basic table styling.
+            table-bordered: This class adds borders around the table and its cells.
+            table-striped: This class alternates the background color of rows
+        -->
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Category Name
+                    </th>
+                    <th>
+                        Display Order
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--
+                C# in view can be written as
+                This code will iterate through the model that we have defined on the page
+                Order By will show the property DisplayOrder in Ascending order
+                -->
+                @foreach (var obj in Model.OrderBy(u => u.DisplayOrder))
+                {
+                    <tr>
+                        <td>@obj.Name</td>
+                        <td>@obj.DisplayOrder</td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <!--mx-2 : margin 2-->
+                                <!--asp-route-id will automatically map to the parameter id passed in view()-->
+                                <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+
+                                <a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                    <i class="bi bi-trash3-fill"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

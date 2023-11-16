@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "EcommerceWeb/1.0.0": {
         "dependencies": {
+          "Ecommerce.DataAccess": "1.0.0",
           "Microsoft.DotNet.Scaffolding.Shared": "8.0.0-rc.1.23461.3",
           "Microsoft.EntityFrameworkCore": "8.0.0-rc.1.23419.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-rc.1.23419.6",
@@ -2479,6 +2480,28 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "Ecommerce.DataAccess/1.0.0": {
+        "dependencies": {
+          "Ecommerce.Models": "1.0.0",
+          "Ecommerce.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0-rc.1.23419.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-rc.1.23419.6",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0-rc.1.23461.3"
+        },
+        "runtime": {
+          "Ecommerce.DataAccess.dll": {}
+        }
+      },
+      "Ecommerce.Models/1.0.0": {
+        "runtime": {
+          "Ecommerce.Models.dll": {}
+        }
+      },
+      "Ecommerce.Utility/1.0.0": {
+        "runtime": {
+          "Ecommerce.Utility.dll": {}
+        }
       }
     }
   },
@@ -4048,6 +4071,21 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Ecommerce.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ecommerce.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ecommerce.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -20,3 +20,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.bg-secondary {
+    background-color: #1a1a1a !important;
+}
+
+bg-success {
+    background-color: #1a1a1a !important;
+}
+
+    .btn-outline-primary {
+    color: #192E2F;
+    border-color: #192E2F;
+}
+
+    .btn-outline-primary:hover {
+        color: #fff;
+        background-color: #1a1a1a;
+        border-color: #1a1a1a;
+    }

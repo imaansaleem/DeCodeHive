@@ -1,0 +1,38 @@
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.csproj.AssemblyReference.cache
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.AssemblyInfoInputs.cache
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.AssemblyInfo.cs
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.csproj.CoreCompileInputs.cache
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.deps.json
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.runtimeconfig.json
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.pdb
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Models.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Utility.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Models.pdb
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.csproj.CopyComplete
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\refint\Ecommerce.DataAccess.dll
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.pdb
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.genruntimeconfig.cache
+D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\ref\Ecommerce.DataAccess.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.deps.json
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.runtimeconfig.json
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.DataAccess.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Models.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Utility.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Models.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\bin\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.csproj.AssemblyReference.cache
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.AssemblyInfoInputs.cache
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.AssemblyInfo.cs
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.csproj.CoreCompileInputs.cache
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.csproj.CopyComplete
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\refint\Ecommerce.DataAccess.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\Ecommerce.DataAccess.genruntimeconfig.cache
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.DataAccess\obj\Debug\net8.0\ref\Ecommerce.DataAccess.dll
