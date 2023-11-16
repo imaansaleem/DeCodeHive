@@ -20,3 +20,4 @@ D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.M
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\refint\Ecommerce.Models.dll
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.pdb
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\ref\Ecommerce.Models.dll
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.csproj.AssemblyReference.cache

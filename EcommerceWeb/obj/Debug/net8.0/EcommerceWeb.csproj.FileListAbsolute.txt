@@ -514,3 +514,6 @@ D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\obj\Debug\net8.0\refint\Ecommerc
 D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\obj\Debug\net8.0\EcommerceWeb.pdb
 D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\obj\Debug\net8.0\EcommerceWeb.genruntimeconfig.cache
 D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\obj\Debug\net8.0\ref\EcommerceWeb.dll
+D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\obj\Debug\net8.0\EcommerceWeb.MvcApplicationPartsAssemblyInfo.cs

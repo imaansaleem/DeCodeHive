@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 //product that will contain all of the books of our website and that will have a category.
 //We need CRUD operations on book
@@ -64,6 +65,11 @@ namespace Ecommerce.Models
         [ForeignKey("CategoryId")]
 
         //navigation property to category table
+        [ValidateNever]
         public Category Category { get; set; }
+
+        //Every Product has an image associated with it
+        [ValidateNever]
+        public string ImageUrl { set; get; }
     }
 }

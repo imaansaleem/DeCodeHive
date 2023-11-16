@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u8emL8L8YZIeGFMWcCnU6xTTMiHa1fhe/twa7y5WFvY=",
+  "Hash": "yVOKlmxapuj5Zwvq1iS5k1BkBYTPpzGFnqLglN6AXeI=",
   "Source": "EcommerceWeb",
   "BasePath": "_content/EcommerceWeb",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\23730c93-2294-419d-b0bc-dc33b000cea5.png",
+      "SourceId": "EcommerceWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\",
+      "BasePath": "_content/EcommerceWeb",
+      "RelativePath": "images/product/23730c93-2294-419d-b0bc-dc33b000cea5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\23730c93-2294-419d-b0bc-dc33b000cea5.png"
     },
     {
       "Identity": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\js\\site.js",

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\23730c93-2294-419d-b0bc-dc33b000cea5.png",
+      "PackagePath": "staticwebassets\\images\\product\\23730c93-2294-419d-b0bc-dc33b000cea5.png"
+    },
+    {
       "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
