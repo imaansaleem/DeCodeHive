@@ -1,18 +1,32 @@
-﻿@model List<Category>
+﻿@model Category
 
+<!--So basically when the button is triggered, it will hit the same endpoint with the post request.-->
+<!--Http post method inside controller-->
 <form method="post">
     <div class="border p-3 mt-4">
-        <div class="row pb-2"></div>
+        <div class="row pb-2">
             <h2 class = "text-primary"> Create Category</h2>
             <hr/>
-            <div class="mb-3 row p-1">
-                <label class="p-0">Category Name</label>
-                <input type="text" class="form-control" />
-            </div>
-            <div class="mb-3 row p-1">
-                <label class="p-0">Display Order</label>
-                <input type="text" class="form-control" />
-            </div>
+        </div>
+
+        <!--Tag helper to Show all the Error message on one place with hidden datamember name-->
+        @*<div asp-validation-summary="ModelOnly"></div>*@
+
+        <div class="mb-3 row p-1">
+            <!--Tag helper to display name of datamember-->
+            <label asp-for="Name" class="p-0"></label>
+            <input asp-for="Name" class="form-control"/>
+
+            <!--Tag helper to print error for wrong input-->
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 row p-1">
+            <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+            <label asp-for="DisplayOrder" class="p-0"></label>
+            <input asp-for = "DisplayOrder" class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
 
         <div class="row">
             <!--col-md-3 tells if screen size is small divide it into 3 columns-->
@@ -27,3 +41,11 @@
             </div>      
     </div>
 </form>
+
+<!--javascript client Side Validations-->
+@section Scripts{
+    @{
+        //add file name
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}

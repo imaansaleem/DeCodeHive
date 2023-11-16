@@ -1,0 +1,41 @@
+﻿@model Category
+
+<form method="post">
+    <input asp-for="Id" hidden/>
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary"> Delete Category</h2>
+            <hr/>
+        </div>
+
+        <div class="mb-3 row p-1">
+            <!--Tag helper to display name of datamember-->
+            <label asp-for="Name" class="p-0"></label>
+
+            <!--Disabled so that user cannot enter anything here-->
+            <input asp-for="Name" disabled class="form-control" />
+
+            <!--Tag helper to print error for wrong input-->
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 row p-1">
+            <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+            <label asp-for="DisplayOrder" class="p-0"></label>
+            <input asp-for="DisplayOrder" disabled class="form-control" />
+            <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+        </div>
+
+        <div class="row">
+            <!--col-md-3 tells if screen size is small divide it into 3 columns-->
+            <div class="col-6 col-md-3">
+                <button type="submit" class="btn btn-danger form-control">Delete</button>
+            </div>
+            <!--textend floats left element-->
+            <div class="col-6 col-md-3">
+                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
+                    Back to List
+                </a>
+            </div>
+        </div>
+</form>
