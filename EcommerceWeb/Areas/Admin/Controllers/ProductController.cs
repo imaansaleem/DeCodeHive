@@ -124,17 +124,17 @@ namespace EcommerceWeb.Areas.Admin.Controllers
                 {
                     //Getting which object to add in database
                     _unitOfWork.Product.Add(productVM.Product);
+                    TempData["success"] = "Product Created Successfully";
 
                 }
                 else
                 {
                     _unitOfWork.Product.Update(productVM.Product);
+                    TempData["success"] = "Product Updated Successfully";
                 }
                 //category inserted in data base
                 _unitOfWork.Save();
 
-                //Temp data will render when we move to index page after creating data
-                TempData["success"] = "Product Created Successfully";
 
                 //return back to index page
                 return RedirectToAction("Index");
