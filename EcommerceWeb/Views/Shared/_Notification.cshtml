@@ -1,0 +1,27 @@
+﻿
+<!--
+    we are creating partial Views
+    They are normally started with _ like _validationscripts
+    This will allow you to add notification to any part of you index page or to any index page
+-->
+
+@if (TempData["success"] != null)
+{
+    //Acessing file
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    //Website minified link
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData["success"]');
+    </script>
+} 
+
+@if (TempData["error"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.error('@TempData["error"]');
+    </script>
+}
