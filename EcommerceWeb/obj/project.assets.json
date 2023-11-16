@@ -3896,6 +3896,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Ecommerce.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ecommerce.Models": "1.0.0",
+          "Ecommerce.Utility": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0-rc.1.23419.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-rc.1.23419.6",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.0-rc.1.23461.3"
+        },
+        "compile": {
+          "bin/placeholder/Ecommerce.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.DataAccess.dll": {}
+        }
+      },
+      "Ecommerce.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ecommerce.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Models.dll": {}
+        }
+      },
+      "Ecommerce.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ecommerce.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ecommerce.Utility.dll": {}
+        }
       }
     }
   },
@@ -11346,10 +11383,26 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Ecommerce.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.DataAccess/Ecommerce.DataAccess.csproj",
+      "msbuildProject": "../Ecommerce.DataAccess/Ecommerce.DataAccess.csproj"
+    },
+    "Ecommerce.Models/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Models/Ecommerce.Models.csproj",
+      "msbuildProject": "../Ecommerce.Models/Ecommerce.Models.csproj"
+    },
+    "Ecommerce.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Ecommerce.Utility/Ecommerce.Utility.csproj",
+      "msbuildProject": "../Ecommerce.Utility/Ecommerce.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Ecommerce.DataAccess >= 1.0.0",
       "Microsoft.DotNet.Scaffolding.Shared >= 8.0.0-rc.1.23461.3",
       "Microsoft.EntityFrameworkCore >= 8.0.0-rc.1.23419.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-rc.1.23419.6",
@@ -11363,11 +11416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester 7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+      "projectUniqueName": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
       "projectName": "EcommerceWeb",
-      "projectPath": "D:\\Semester 7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+      "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
       "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester 7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\obj\\",
+      "outputPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11383,7 +11436,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+              "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

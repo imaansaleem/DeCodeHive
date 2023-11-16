@@ -1,0 +1,103 @@
+﻿@model Product
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary mt-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2"> Create Product</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <!--So basically when the button is triggered, it will hit the same endpoint with the post request.-->
+        <!--Http post method inside controller-->
+
+        <form class="row" method="post">
+            <div class="border p-3">
+
+                <!--Tag helper to Show all the Error message on one place with hidden datamember name-->
+
+                <div class="form-floating py-2 col-12">
+                    <!--Tag helper to display name of datamember-->
+                    <input asp-for="Title" class="form-control border-0 shadow " />
+                    <label asp-for="Title" class="ms-2"></label>
+                   
+                    <!--Tag helper to print error for wrong input-->
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="Description" class="form-control border-0 shadow" />
+                    <label asp-for="Description" class="ms-2"></label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="ISBN" class="form-control border-0 shadow" />
+                    <label asp-for="ISBN" class="ms-2"></label>
+                    <span asp-validation-for="ISBN" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="Author" class="form-control border-0 shadow" />
+                    <label asp-for="Author" class="ms-2"></label>
+                    <span asp-validation-for="Author" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="ListPrice" class="form-control border-0 shadow" />
+                    <label asp-for="ListPrice" class="ms-2"></label>
+                    <span asp-validation-for="ListPrice" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="Price" class="form-control border-0 shadow" />
+                    <label asp-for="Price" class="ms-2"></label>
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="Price50" class="form-control border-0 shadow" />
+                    <label asp-for="Price50" class="ms-2"></label>
+                    <span asp-validation-for="Price50" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating py-2 col-12">
+                    <!--these tag helper also know Disply order is integer so it will also allow it to do manually using arrows-->
+                    <input asp-for="Price100" class="form-control border-0 shadow" />
+                    <label asp-for="Price100" class="ms-2"></label>
+                    <span asp-validation-for="Price100" class="text-danger"></span>
+                </div>
+
+
+                <div class="row pt-2">
+                    <!--col-md-3 tells if screen size is small divide it into 3 columns-->
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-primary form-control">Create</button>
+                    </div>
+                    <!--textend floats left element-->
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary border form-control">
+                            Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+<!--javascript client Side Validations-->
+@section Scripts{
+    @{
+        //add file name
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}

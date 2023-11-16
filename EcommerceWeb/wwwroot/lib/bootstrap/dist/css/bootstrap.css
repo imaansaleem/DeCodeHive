@@ -210,6 +210,8 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 
+
+
 hr {
     margin: 1rem 0;
     color: inherit;
@@ -7066,6 +7068,7 @@ textarea.form-control-lg {
     color: #000 !important;
     background-color: RGBA(var(--bs-secondary-rgb),var(--bs-bg-opacity,1)) !important
 }
+
 
 .text-bg-success {
     color: #fff !important;
