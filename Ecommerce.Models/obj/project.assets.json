@@ -6636,11 +6636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+      "projectUniqueName": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
       "projectName": "Ecommerce.Models",
-      "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+      "projectPath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
       "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\obj\\",
+      "outputPath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",

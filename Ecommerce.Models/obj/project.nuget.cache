@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uEVSo4A7r+ZMYEjVDc+gr0lz8CMiQlkVUdMFShYmY8seSyUM2HFQUm4iCKkmg+IkBj/3IfWGpgl4+opHif2qiw==",
+  "dgSpecHash": "N37zLuHVvS7xdoxJlqn2Qisr9sIPG1FpsZn39qjaxIa13LbHP0Qol7fYchg5BFD845kEqW0FFKsRZYsZGqnUaA==",
   "success": true,
-  "projectFilePath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+  "projectFilePath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imaan\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Imaan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

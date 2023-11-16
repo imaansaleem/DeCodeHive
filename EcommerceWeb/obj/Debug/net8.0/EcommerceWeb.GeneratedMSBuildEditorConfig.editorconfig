@@ -9,91 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcommerceWeb
 build_property.RootNamespace = EcommerceWeb
-build_property.ProjectDir = D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb\
+build_property.ProjectDir = D:\EADBackup\1.OnlyCategoryProducts\Project\Ecommerce\EcommerceWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Semester7\EAD\Project\Ecommerce\EcommerceWeb
+build_property.MSBuildProjectDirectory = D:\EADBackup\1.OnlyCategoryProducts\Project\Ecommerce\EcommerceWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Create.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Delete.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Edit.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Index.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Product/Delete.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Product/Index.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Product/Upsert.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/Product/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/Home/Details.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/Home/Index.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/Home/Privacy.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/_ViewImports.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/_ViewStart.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Areas/Customer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Views/Shared/Error.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Views/Shared/_Notification.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Views/_ViewImports.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Views/_ViewStart.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Semester7/EAD/Project/Ecommerce/EcommerceWeb/Views/Shared/_Layout.cshtml]
+[D:/EADBackup/1.OnlyCategoryProducts/Project/Ecommerce/EcommerceWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rsvuveu5x3
