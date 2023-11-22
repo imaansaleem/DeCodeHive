@@ -3,7 +3,6 @@ using Ecommerce.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -57,7 +56,6 @@ namespace Ecommerce.DataAccess.Repository
         }
 
         //if there are more than one include properties, we can add them as a comma
-        //includeProperties is working as a select statement
         public IEnumerable<T> GetAll(string? includeProperties = null)
         {
             //Iquerable contains query against the complete dataset
@@ -69,7 +67,6 @@ namespace Ecommerce.DataAccess.Repository
                     query = query.Include(includeProp);
                 }
             }
-
             return query.ToList();
         }
 

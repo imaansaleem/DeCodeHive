@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {}
+    "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {}
   },
   "projects": {
-    "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectPath": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-        "outputPath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Models\\obj\\",
+        "outputPath": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23112.2, )"
             }
           },
           "imports": [

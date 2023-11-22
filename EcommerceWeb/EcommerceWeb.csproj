@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\company.js" />
     <Content Remove="wwwroot\js\Product.js" />
   </ItemGroup>
 
@@ -28,6 +29,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.Scaffolding.Shared" Version="8.0.0-rc.1.23461.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0-rc.1.23419.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0-rc.1.23419.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-rc.1.23419.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-rc.1.23419.6">
       <PrivateAssets>all</PrivateAssets>
@@ -45,6 +47,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\js\company.js" />
     <None Include="wwwroot\js\product.js" />
   </ItemGroup>
 
