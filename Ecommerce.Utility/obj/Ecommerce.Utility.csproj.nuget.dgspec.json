@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {}
+    "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {}
   },
   "projects": {
-    "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
+    "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
+        "projectUniqueName": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
         "projectName": "Ecommerce.Utility",
-        "projectPath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
+        "projectPath": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
         "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-        "outputPath": "D:\\EADBackup\\1.OnlyCategoryProducts\\Project\\Ecommerce\\Ecommerce.Utility\\obj\\",
+        "outputPath": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.0-rc.2.23480.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

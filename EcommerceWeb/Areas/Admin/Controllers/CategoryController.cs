@@ -1,6 +1,8 @@
 ﻿using Ecommerce.DataAccess.Data;
 using Ecommerce.DataAccess.Repository.IRepository;
 using Ecommerce.Models;
+using Ecommerce.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EcommerceWeb.Areas.Admin.Controllers
@@ -8,6 +10,9 @@ namespace EcommerceWeb.Areas.Admin.Controllers
 
     //Telling a controller that you belongs to this area
     [Area("Admin")]
+
+    //if somebody is not admin then even after placing the same link he must not be ble to configure controller
+    //[Authorize(Roles = SD.Role_Admin)]
     public class CategoryController :  Controller
     {
         //private readonly ApplicationDbContext _db;
@@ -55,7 +60,10 @@ namespace EcommerceWeb.Areas.Admin.Controllers
                 _unitOfWork.Save();
 
                 //Temp data will render when we move to index page after creating data
-                TempData["success"] = "Category Created Successfully";
+                Response.Cookies.Append("SuccessMessage", "Category Created Successfully");
+
+                // Set a flag to "false" in the same cookie
+                Response.Cookies.Append("SuccessMessageDisplayed", "false");
 
                 //return back to index page
                 return RedirectToAction("Index");
@@ -90,7 +98,10 @@ namespace EcommerceWeb.Areas.Admin.Controllers
                 //It will update obj based on id
                 _unitOfWork.Category.Update(obj);
                 _unitOfWork.Save();
-                TempData["success"] = "Category Updated Successfully";
+                // Set a cookie with the success message
+                Response.Cookies.Append("SuccessMessage", "Category Updated Successfully");
+                // Set a flag to "false" in the same cookie
+                Response.Cookies.Append("SuccessMessageDisplayed", "false");
                 return RedirectToAction("Index");
             }
             return View();
@@ -125,7 +136,9 @@ namespace EcommerceWeb.Areas.Admin.Controllers
             }
             _unitOfWork.Category.Remove(obj);
             _unitOfWork.Save();
-            TempData["success"] = "Category Deleted Successfully";
+            Response.Cookies.Append("SuccessMessage", "Category Deleted Successfully");
+            // Set a flag to "false" in the same cookie
+            Response.Cookies.Append("SuccessMessageDisplayed", "false");
             return RedirectToAction("Index");
         }
     }

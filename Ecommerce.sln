@@ -4,10 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcommerceWeb", "EcommerceWeb\EcommerceWeb.csproj", "{B0499EBE-1E72-44F9-B14C-BE1B5B31D952}"
-	ProjectSection(ProjectDependencies) = postProject
-		{1BC8DD7C-C3CD-4305-83E2-A1C809067083} = {1BC8DD7C-C3CD-4305-83E2-A1C809067083}
-		{E196AB21-796C-41BA-9DEE-BE2CF4ECF6FA} = {E196AB21-796C-41BA-9DEE-BE2CF4ECF6FA}
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ecommerce.DataAccess", "Ecommerce.DataAccess\Ecommerce.DataAccess.csproj", "{630824DA-6012-44EB-A5BE-B272D444D511}"
 EndProject

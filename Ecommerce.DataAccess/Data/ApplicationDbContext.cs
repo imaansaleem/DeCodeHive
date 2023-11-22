@@ -1,5 +1,7 @@
 ﻿using Ecommerce.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace Ecommerce.DataAccess.Data
 {
@@ -13,16 +15,52 @@ namespace Ecommerce.DataAccess.Data
         //property: DbSet Entity: Class(Category) Table name: Categories
         public DbSet<Category>Categories{get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Company> Companies { get; set; }
 
         //Already defined this function in entity framework and we are overriding one
         protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
+            base.OnModelCreating(modelBuilder);
+
 			//we are telling entity framework core on category, we want to create these three records.
 			modelBuilder.Entity<Category>().HasData(
 				new Category { Id = 1, Name = "Design Patterns", DisplayOrder = 1 },
 				new Category { Id = 2, Name = "Database Design", DisplayOrder = 2 },
 				new Category { Id = 3, Name = "Programming Languages", DisplayOrder = 3 }
 				);
+
+            modelBuilder.Entity<Company>().HasData(
+                new Company
+                {
+                    Id = 1,
+                    Name = "Bookworm Haven",
+                    StreetAddress = "1234 Reading Lane",
+                    City = "Literaryville",
+                    State = "Booktopia",
+                    PostalCode = "54321",
+                    PhoneNumber = "03433938724"
+                },
+                new Company
+                {
+                    Id = 2,
+                    Name = "Novel Nook",
+                    StreetAddress = "567 Fiction Street",
+                    City = "Imaginaria",
+                    State = "Storyland",
+                    PostalCode = "98765",
+                    PhoneNumber = "03345938724"
+                },
+                new Company
+                {
+                    Id = 3,
+                    Name = "Paperback Paradise",
+                    StreetAddress = "789 Adventure Avenue",
+                    City = "Plotville",
+                    State = "Proseville",
+                    PostalCode = "24680",
+                    PhoneNumber = "03332468024"
+                });
+
 
             modelBuilder.Entity<Product>().HasData(new Product
             {
@@ -36,9 +74,10 @@ namespace Ecommerce.DataAccess.Data
                 Price50 = 85,
                 Price100 = 80,
                 CategoryId = 1,
-                ImageUrl= "\\images\\product\\d10bc571-0a5e-407d-8546-d9557acd8434.png"
+                ImageUrl = "\\images\\product\\d10bc571-0a5e-407d-8546-d9557acd8434.png"
             },
-            new Product {
+            new Product
+            {
                 Id = 2,
                 Title = "The Art of Invisibility",
                 Author = "Robert Nystrom",
@@ -149,9 +188,10 @@ namespace Ecommerce.DataAccess.Data
                 Price100 = 65,
                 CategoryId = 2,
                 ImageUrl = "\\images\\product\\4260ed8a-af8f-4299-bd86-2a6a0518bca2.png"
-            }) ;
-		}
+            });
 
-	}
+        }
+
+    }
 
 }
