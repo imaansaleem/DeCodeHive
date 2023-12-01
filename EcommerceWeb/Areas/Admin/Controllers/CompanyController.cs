@@ -1,0 +1,97 @@
+﻿using Ecommerce.DataAccess.Data;
+using Ecommerce.DataAccess.Repository.IRepository;
+using Ecommerce.Models;
+using Ecommerce.Models.ViewModels;
+using Ecommerce.Utility;
+using Humanizer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.DotNet.Scaffolding.Shared.Messaging;
+using NuGet.Protocol.Plugins;
+using System.Drawing.Drawing2D;
+
+namespace EcommerceWeb.Areas.Admin.Controllers
+{
+
+    public class CompanyController :  Controller
+    {
+        private readonly IUnitOfWork _unitOfWork;
+        public CompanyController(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+        public IActionResult Index()
+        {
+            List<Company> objCompanyList = _unitOfWork.Company.GetAll().ToList();
+
+            return View(objCompanyList);
+        }
+
+        public IActionResult Upsert(int? id)
+        {
+
+            if(id == null || id == 0)
+            {
+                return View(new Company());
+            }
+
+            else
+            {
+                Company companyObj = _unitOfWork.Company.Get(u => u.Id == id);
+                return View(companyObj);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Upsert(Company CompanyObj)
+        {
+            if (ModelState.IsValid)
+            {
+                if(CompanyObj.Id == 0) 
+                {
+                    _unitOfWork.Company.Add(CompanyObj);
+
+                }
+                else
+                {
+                    _unitOfWork.Company.Update(CompanyObj);
+                }
+                _unitOfWork.Save();
+                TempData["success"] = "Company Created Successfully";
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(CompanyObj);
+            }
+        }
+
+        //for database filters
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll() 
+        {
+            List<Company> objCompanyList = _unitOfWork.Company.GetAll().ToList();
+            return Json(new { data = objCompanyList });
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            var CompanyToBeDeleted = _unitOfWork.Company.Get(u=>u.Id == id);
+            if (CompanyToBeDeleted == null)
+            {
+                return Json(new {success = false, message = "Error while deleting"});
+            }
+
+            _unitOfWork.Company.Remove(CompanyToBeDeleted);
+            _unitOfWork.Save();
+
+            return Json(new { success = true, message = "Delete Successfully"});
+        }
+
+        #endregion
+    }
+}

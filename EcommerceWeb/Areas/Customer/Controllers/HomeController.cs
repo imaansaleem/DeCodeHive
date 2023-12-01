@@ -6,7 +6,6 @@ using System.Diagnostics;
 
 namespace EcommerceWeb.Areas.Customer.Controllers
 {
-    //Telling a controller that you belongs to this area
     [Area("Customer")]
     public class HomeController : Controller
     {

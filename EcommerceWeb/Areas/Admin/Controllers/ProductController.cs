@@ -2,7 +2,9 @@
 using Ecommerce.DataAccess.Repository.IRepository;
 using Ecommerce.Models;
 using Ecommerce.Models.ViewModels;
+using Ecommerce.Utility;
 using Humanizer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
@@ -14,6 +16,8 @@ namespace EcommerceWeb.Areas.Admin.Controllers
 
     //Telling a controller that you belongs to this area
     [Area("Admin")]
+    //if somebody is not admin then even after placing the same link he must not be ble to configure controller
+    //[Authorize(Roles = SD.Role_Admin)]
     public class ProductController :  Controller
     {
         //private readonly ApplicationDbContext _db;

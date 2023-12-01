@@ -12,6 +12,7 @@ D:\Semester 7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\ref\Ecomm
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.deps.json
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.dll
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.pdb
+D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.csproj.AssemblyReference.cache
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.GeneratedMSBuildEditorConfig.editorconfig
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfoInputs.cache
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfo.cs
