@@ -13412,11 +13412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EADBackup\\bhai\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+      "projectUniqueName": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
       "projectName": "EcommerceWeb",
-      "projectPath": "D:\\EADBackup\\bhai\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+      "projectPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
       "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\EADBackup\\bhai\\Ecommerce\\EcommerceWeb\\obj\\",
+      "outputPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\EcommerceWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13433,8 +13433,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
-              "projectPath": "D:\\EADBackup\\bhai\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+            "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+              "projectPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
             }
           }
         }
