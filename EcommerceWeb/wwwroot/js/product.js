@@ -52,11 +52,15 @@ function Delete(url) {
         cancelButtonColor: '#1a1a1a',
         confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
+        //If the user confirms the deletion, it sends an AJAX DELETE request to the specified URL(url) using jQuery's $.ajax function.
         if (result.isConfirmed) {
             $.ajax({
                 url: url,
+                //http delete
                 type: 'DELETE',
+                //data is actually success message
                 success: function (data) {
+                    // it reloads the DataTable to reflect the updated data
                     dataTable.ajax.reload();
                     toastr.success(data.message);
                 }

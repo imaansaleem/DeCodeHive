@@ -11,9 +11,13 @@ using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using NuGet.Protocol.Plugins;
 using System.Drawing.Drawing2D;
 
+
+//product controller copy paste
 namespace EcommerceWeb.Areas.Admin.Controllers
 {
 
+    [Area("Admin")]
+   // [Authorize(Roles = SD.Role_Admin)]
     public class CompanyController :  Controller
     {
         private readonly IUnitOfWork _unitOfWork;
