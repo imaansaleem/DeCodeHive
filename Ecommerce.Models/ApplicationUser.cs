@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser: IdentityUser
     {
         [Required]
         public string Name {  get; set; }
@@ -20,6 +20,7 @@ namespace Ecommerce.Models
         public string? State { get; set; }
         public string? PostalCode { get; set; }
 
+        //id can be null if it is simple user
         public int? CompanyId { get; set; }
         [ForeignKey("CompanyId")]
         [ValidateNever]
