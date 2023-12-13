@@ -13077,11 +13077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+      "projectUniqueName": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
       "projectName": "Ecommerce.DataAccess",
-      "projectPath": "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+      "projectPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.DataAccess\\obj\\",
+      "outputPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13098,11 +13098,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
-              "projectPath": "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
+            "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+              "projectPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj"
             },
-            "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
-              "projectPath": "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj"
+            "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
+              "projectPath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj"
             }
           }
         }
