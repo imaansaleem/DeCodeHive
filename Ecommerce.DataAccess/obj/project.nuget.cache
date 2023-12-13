@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/DT0MggubL7PC4L/vr/+3iMEZGLPtIMaqiAaPauampKQgmusgaXztcE4BNCOEwFU9gpsEMts99IVD/kuO2q/LA==",
+  "dgSpecHash": "6d3qKTVgNMCkAXOK7/JiahqvUlODpooQw8ufVuaLPJ2sFJ4yYphVR+LFXCIN8fPEwAVGwoMg51rSrPH2z6sufg==",
   "success": true,
-  "projectFilePath": "D:\\EADBackup\\MYNew\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
+  "projectFilePath": "D:\\EADBackup\\2.WithIdentityFramework\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imaan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Imaan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
