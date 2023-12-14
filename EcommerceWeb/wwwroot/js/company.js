@@ -4,18 +4,17 @@ $(document).ready(function () {
     loadDataTable();
 });
 
-
 function loadDataTable() {
     dataTable = $('#tblData').DataTable({
         responsive: true,
-        "ajax": { url: '/admin/company/getall' },
+        "ajax": { url: '/admin/company/getall'},
         "columns": [
             //column names must be exact
-            { data: 'name', "width": "25%" },
-            { data: 'streetAddress', "width": "10%" },
-            { data: 'city', "width": "2%" },
+            { data: 'name', "width": "15%" },
+            { data: 'streetAddress', "width": "15%" },
+            { data: 'city', "width": "15%" },
             { data: 'state', "width": "15%" },
-            { data: 'phonenumber', "width": "15%" },
+            { data: 'phoneNumber', "width": "20%" },
             {
                 data: 'id',
 
