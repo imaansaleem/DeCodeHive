@@ -60,10 +60,7 @@ namespace EcommerceWeb.Areas.Admin.Controllers
                 _unitOfWork.Save();
 
                 //Temp data will render when we move to index page after creating data
-                Response.Cookies.Append("SuccessMessage", "Category Created Successfully");
-
-                // Set a flag to "false" in the same cookie
-                Response.Cookies.Append("SuccessMessageDisplayed", "false");
+                TempData["success"] = "Category Created Successfully";
 
                 //return back to index page
                 return RedirectToAction("Index");
@@ -98,10 +95,7 @@ namespace EcommerceWeb.Areas.Admin.Controllers
                 //It will update obj based on id
                 _unitOfWork.Category.Update(obj);
                 _unitOfWork.Save();
-                // Set a cookie with the success message
-                Response.Cookies.Append("SuccessMessage", "Category Updated Successfully");
-                // Set a flag to "false" in the same cookie
-                Response.Cookies.Append("SuccessMessageDisplayed", "false");
+                TempData["success"] = "Category Updated Successfully";
                 return RedirectToAction("Index");
             }
             return View();
@@ -136,9 +130,7 @@ namespace EcommerceWeb.Areas.Admin.Controllers
             }
             _unitOfWork.Category.Remove(obj);
             _unitOfWork.Save();
-            Response.Cookies.Append("SuccessMessage", "Category Deleted Successfully");
-            // Set a flag to "false" in the same cookie
-            Response.Cookies.Append("SuccessMessageDisplayed", "false");
+            TempData["success"] = "Category Deleted Successfully";
             return RedirectToAction("Index");
         }
     }

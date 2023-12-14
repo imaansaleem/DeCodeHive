@@ -238,6 +238,25 @@ namespace EcommerceWeb.Areas.Identity.Pages.Account
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
+            else
+            {
+                Input = new()
+                {
+                    //Select names from roles what we select is to add to selectItem
+                    RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
+                    {
+                        Text = i,
+                        Value = i
+                    }),
+
+                    //Select names from roles what we select is to add to selectItem
+                    CompanyList = _unitOfWork.Company.GetAll().Select(i => new SelectListItem
+                    {
+                        Text = i.Name,
+                        Value = i.Id.ToString()
+                    })
+                };
+            }
 
             // If we got this far, something failed, redisplay form
             return Page();

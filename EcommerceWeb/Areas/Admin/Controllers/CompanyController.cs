@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
+using Newtonsoft.Json;
 using NuGet.Protocol.Plugins;
 using System.Drawing.Drawing2D;
 

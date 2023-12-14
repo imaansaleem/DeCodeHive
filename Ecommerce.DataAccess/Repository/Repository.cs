@@ -36,11 +36,22 @@ namespace Ecommerce.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracked = false)
         {
             //we have the complete DB set that we have assigned here.
             //Then on the query we can apply a where condition and I can pass the filter.
-            IQueryable<T> query = dbSet;
+            IQueryable<T> query;
+            if (tracked)
+            {
+                query = dbSet;
+            }
+
+            //Entity Framework keep track of which object is retrieved 
+            //This will create problem so we ensure it isnt 
+            else
+            {
+                query = dbSet.AsNoTracking();
+            }
 
             //whatever condition we have, it will apply that on a where condition and it will have the query ready for that.
             query = query.Where(filter);
@@ -56,11 +67,15 @@ namespace Ecommerce.DataAccess.Repository
         }
 
         //if there are more than one include properties, we can add them as a comma
-        public IEnumerable<T> GetAll(string? includeProperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>> ?filter, string? includeProperties = null)
         {
             //Iquerable contains query against the complete dataset
             IQueryable<T> query = dbSet;
-            if(!string.IsNullOrEmpty(includeProperties))
+            if(filter != null)
+            {
+                query = query.Where(filter);
+            }
+            if (!string.IsNullOrEmpty(includeProperties))
             {
                 foreach(var includeProp in includeProperties.Split(new char[] {','}, StringSplitOptions.RemoveEmptyEntries))
                 {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umair\\Desktop\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {}
+    "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umair\\Desktop\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umair\\Desktop\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "C:\\Users\\umair\\Desktop\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
-        "packagesPath": "C:\\Users\\umair\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umair\\Desktop\\Ecommerce\\Ecommerce.Models\\obj\\",
+        "projectPath": "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
+        "outputPath": "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\umair\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

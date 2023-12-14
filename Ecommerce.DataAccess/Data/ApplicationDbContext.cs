@@ -17,6 +17,7 @@ namespace Ecommerce.DataAccess.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Company> Companies { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
         //Already defined this function in entity framework and we are overriding one
         protected override void OnModelCreating(ModelBuilder modelBuilder)
