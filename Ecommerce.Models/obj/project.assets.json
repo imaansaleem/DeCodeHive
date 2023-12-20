@@ -6916,11 +6916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+      "projectUniqueName": "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
       "projectName": "Ecommerce.Models",
-      "projectPath": "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+      "projectPath": "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
       "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\EADBackup\\mine\\Ecommerce\\Ecommerce.Models\\obj\\",
+      "outputPath": "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
