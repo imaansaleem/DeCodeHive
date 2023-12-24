@@ -23,19 +23,19 @@ namespace Ecommerce.Models
         //when order was made?
         public DateTime OrderDate { get; set; }
         //when order was shipped?
-        public DateTime ShippingDate { get; set; }
+        //public DateTime ShippingDate { get; set; }
         public double OrderTotal { get; set; }
         public string? OrderStatus { get; set; }
         //given or pending
         public string? PaymentStatus { get; set; }
-        public string? TrackingNumber { get; set; }
-        public string? Carrier { get; set; }
-        public DateTime PaymentDate { get; set; }
+        //public string? TrackingNumber { get; set; }
+        //public string? Carrier { get; set; }
+        //public DateTime PaymentDate { get; set; }
         //for company user, we will give them net 30 days to make payment after the
         //by when the payment is due.
-        public DateOnly PaymentDueDate { get; set; }
+        //public DateOnly PaymentDueDate { get; set; }
         //payment id
-        public string? PaymentIntentId { get; set; }
+        //public string? PaymentIntentId { get; set; }
 
 
         //properties added in the view 

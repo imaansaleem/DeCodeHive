@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {}
+    "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {}
   },
   "projects": {
-    "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
+    "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectUniqueName": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "projectName": "Ecommerce.Models",
-        "projectPath": "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
+        "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\Ecommerce.Models.csproj",
         "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-        "outputPath": "D:\\EADBackup\\3. WIthAddToCartInterface(10)\\Ecommerce\\Ecommerce.Models\\obj\\",
+        "outputPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
