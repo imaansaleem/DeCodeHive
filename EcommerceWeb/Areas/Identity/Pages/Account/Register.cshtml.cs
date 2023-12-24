@@ -179,8 +179,9 @@ namespace EcommerceWeb.Areas.Identity.Pages.Account
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 //remaining properties added to register
                 user.Name = Input.Name;
-                user.StreetAddress = Input.StreetAddress; ;
+                user.StreetAddress = Input.StreetAddress;
                 user.City = Input.City;
+                user.State = Input.State;
                 user.PostalCode = Input.PostalCode;
                 user.PhoneNumber = Input.PhoneNumber;
 

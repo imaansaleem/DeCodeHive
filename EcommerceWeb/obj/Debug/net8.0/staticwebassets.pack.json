@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\OrderConfirmed.jpg",
+      "PackagePath": "staticwebassets\\images\\OrderConfirmed.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\logoblack.png",
+      "PackagePath": "staticwebassets\\images\\logoblack.png"
+    },
+    {
       "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\4260ed8a-af8f-4299-bd86-2a6a0518bca2.png",
       "PackagePath": "staticwebassets\\images\\product\\4260ed8a-af8f-4299-bd86-2a6a0518bca2.png"
     },

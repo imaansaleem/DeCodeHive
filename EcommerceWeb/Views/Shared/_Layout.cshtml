@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - TechLitHub</title>
+    <title>@ViewData["Title"] DeCodeHive</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/EcommerceWeb.styles.css" asp-append-version="true" />
     <!--For icons-->
@@ -22,7 +22,9 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TechLitHub</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/logo.png" alt="DeCodeHive" height="40" width="195">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,8 +41,8 @@
                         </li>
 
                         <!--This must only ne visible to Admin-->
-                       @*  @if(User.IsInRole(SD.Role_Admin))
-                        { *@
+                        @if(User.IsInRole(SD.Role_Admin))
+                        {
                         <!--Drop Down Menu-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,7 +61,7 @@
                                 <li><hr class="dropdown-divider"></li>
                            </ul>
                         </li>
-                        @* } *@
+                        }
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">Cart
                                 <i class="bi bi-cart"></i> &nbsp;
@@ -79,9 +81,12 @@
         </main>
     </div>
 
-    <footer class="border-top footer bg-primary text-muted text-centre  flex-grow-1">
-        <div class="text-center">
-            Created by Imaan Saleem & Umair Javed <i class="bi bi-emoji-wink-fill"></i>
+    <footer class="border-top footer text-muted text-centre flex-grow-1">
+        <div style="background-color: #eceeef; color:black">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <img src="~/images/logoblack.png" alt="DeCodeHive" height="40" width="193" style="margin-left:30px">
+            </a>
+            Owned by the visionary duo Imaan Saleem & Umair Javed ,where the world meets the art of innovation
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
