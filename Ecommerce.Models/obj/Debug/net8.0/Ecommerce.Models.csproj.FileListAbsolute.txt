@@ -21,3 +21,16 @@ D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.M
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\refint\Ecommerce.Models.dll
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.pdb
 D:\Semester7\EAD\Project\Ecommerce\Ecommerce.Models\obj\Debug\net8.0\ref\Ecommerce.Models.dll
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\bin\Debug\net8.0\Ecommerce.Models.deps.json
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\bin\Debug\net8.0\Ecommerce.Models.dll
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\bin\Debug\net8.0\Ecommerce.Models.pdb
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.csproj.AssemblyReference.cache
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.AssemblyInfoInputs.cache
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.AssemblyInfo.cs
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.csproj.CoreCompileInputs.cache
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.sourcelink.json
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.dll
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\refint\Ecommerce.Models.dll
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\Ecommerce.Models.pdb
+D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Models\obj\Debug\net8.0\ref\Ecommerce.Models.dll

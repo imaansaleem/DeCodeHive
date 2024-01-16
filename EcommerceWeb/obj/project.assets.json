@@ -13412,11 +13412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+      "projectUniqueName": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\EcommerceWeb.csproj",
       "projectName": "EcommerceWeb",
-      "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+      "projectPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\EcommerceWeb.csproj",
       "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\obj\\",
+      "outputPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13433,8 +13433,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
-              "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
+            "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj": {
+              "projectPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.DataAccess\\Ecommerce.DataAccess.csproj"
             }
           }
         }

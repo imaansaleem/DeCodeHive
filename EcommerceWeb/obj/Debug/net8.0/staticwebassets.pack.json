@@ -1,295 +1,335 @@
 {
   "Files": [
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EcommerceWeb.bundle.scp.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EcommerceWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\EcommerceWeb.bundle.scp.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\css\\site.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\favicon.ico",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\OrderConfirmed.jpg",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\OrderConfirmed.jpg",
       "PackagePath": "staticwebassets\\images\\OrderConfirmed.jpg"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\logo.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\appleLogo.png",
+      "PackagePath": "staticwebassets\\images\\appleLogo.png"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\google-play.png",
+      "PackagePath": "staticwebassets\\images\\google-play.png"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\logoblack.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\logoblack.png",
       "PackagePath": "staticwebassets\\images\\logoblack.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\4260ed8a-af8f-4299-bd86-2a6a0518bca2.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\23730c93-2294-419d-b0bc-dc33b000cea5.png",
+      "PackagePath": "staticwebassets\\images\\product\\23730c93-2294-419d-b0bc-dc33b000cea5.png"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\41106360-f81f-4d2e-ae3d-aec7e9bc251b.jpeg",
+      "PackagePath": "staticwebassets\\images\\product\\41106360-f81f-4d2e-ae3d-aec7e9bc251b.jpeg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\4260ed8a-af8f-4299-bd86-2a6a0518bca2.png",
       "PackagePath": "staticwebassets\\images\\product\\4260ed8a-af8f-4299-bd86-2a6a0518bca2.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\5f2f504e-2cf1-4683-8b51-84b5e472e9ef.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\5f2f504e-2cf1-4683-8b51-84b5e472e9ef.png",
       "PackagePath": "staticwebassets\\images\\product\\5f2f504e-2cf1-4683-8b51-84b5e472e9ef.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\a0b3312a-a83d-467b-a576-9fb46c51c73d.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\71efcb88-3c16-4abc-a35a-5dcf409df707.jpeg",
+      "PackagePath": "staticwebassets\\images\\product\\71efcb88-3c16-4abc-a35a-5dcf409df707.jpeg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\72069dda-68ca-4e64-b4e2-91b248f8b7db.jpeg",
+      "PackagePath": "staticwebassets\\images\\product\\72069dda-68ca-4e64-b4e2-91b248f8b7db.jpeg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\73bd7b33-eb0b-48cd-a09a-cca5a2bc35a4.jpeg",
+      "PackagePath": "staticwebassets\\images\\product\\73bd7b33-eb0b-48cd-a09a-cca5a2bc35a4.jpeg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\7b058dc7-256e-4370-b81d-065f2008ce8b.jpeg",
+      "PackagePath": "staticwebassets\\images\\product\\7b058dc7-256e-4370-b81d-065f2008ce8b.jpeg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\a0b3312a-a83d-467b-a576-9fb46c51c73d.png",
       "PackagePath": "staticwebassets\\images\\product\\a0b3312a-a83d-467b-a576-9fb46c51c73d.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\a80ba6f9-3975-4ee1-aec4-def04cc33fc7.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\a34b934f-deb1-4d75-815f-904d6a48200f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\a34b934f-deb1-4d75-815f-904d6a48200f.jpg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\a80ba6f9-3975-4ee1-aec4-def04cc33fc7.png",
       "PackagePath": "staticwebassets\\images\\product\\a80ba6f9-3975-4ee1-aec4-def04cc33fc7.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\bcce6385-9f66-470c-8724-cb58311908e8.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\bcce6385-9f66-470c-8724-cb58311908e8.png",
       "PackagePath": "staticwebassets\\images\\product\\bcce6385-9f66-470c-8724-cb58311908e8.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\cb840f66-4022-4c7d-b29d-cd568f481140.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\cb840f66-4022-4c7d-b29d-cd568f481140.png",
       "PackagePath": "staticwebassets\\images\\product\\cb840f66-4022-4c7d-b29d-cd568f481140.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\d10bc571-0a5e-407d-8546-d9557acd8434.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\d10bc571-0a5e-407d-8546-d9557acd8434.png",
       "PackagePath": "staticwebassets\\images\\product\\d10bc571-0a5e-407d-8546-d9557acd8434.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\e5c35414-2b59-4310-b91c-d5ffe400e70c.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\e5c35414-2b59-4310-b91c-d5ffe400e70c.png",
       "PackagePath": "staticwebassets\\images\\product\\e5c35414-2b59-4310-b91c-d5ffe400e70c.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\images\\product\\efd94755-46bc-4f50-a716-d750228f5c20.png",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\ecbb8f46-efb4-40ac-ac80-21e4b0cc0abb.jpeg",
+      "PackagePath": "staticwebassets\\images\\product\\ecbb8f46-efb4-40ac-ac80-21e4b0cc0abb.jpeg"
+    },
+    {
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\images\\product\\efd94755-46bc-4f50-a716-d750228f5c20.png",
       "PackagePath": "staticwebassets\\images\\product\\efd94755-46bc-4f50-a716-d750228f5c20.png"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\js\\site.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

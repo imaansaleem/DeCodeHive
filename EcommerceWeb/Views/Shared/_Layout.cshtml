@@ -14,9 +14,9 @@
 
     <!--API For database filters-->
     <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 </head>
 <body>
     <header>
@@ -81,13 +81,65 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted text-centre flex-grow-1">
-        <div style="background-color: #eceeef; color:black">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                <img src="~/images/logoblack.png" alt="DeCodeHive" height="40" width="193" style="margin-left:30px">
-            </a>
-            Owned by the visionary duo Imaan Saleem & Umair Javed ,where the world meets the art of innovation
+    <footer style="background-color: black; color: white; margin-top: 10px; padding-left: 15px; padding-bottom: 20px;">
+        <div class="container">
+            <div class="row" style="margin-top: 35px;">
+                <div class="col-md-6">
+                    <div>
+                        <!-- Image component should be replaced with the appropriate HTML structure -->
+                        <img src="~/images/logo.png" alt="Logo" height="40" width="193" style="margin-top:20px">
+                    </div>
+                    <h6 class="mt-3 text-white">Contact us at</h6>
+                    <p>BidIt@gmail.com</p>
+
+                    <h6 class="mt-4 text-white">Join Us</h6>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="text-white">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="text-white">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="text-white">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="text-white">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-3 text-white" style="margin-top: 20px">Links</h5>
+                    <ul class="list-unstyled text-white">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                Cart
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <p class="text-body text-gray text-center mt-4">
+            Owned by the visionary duo Imaan Saleem & Umair Javed where the world meets the art of innovation
+        </p>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

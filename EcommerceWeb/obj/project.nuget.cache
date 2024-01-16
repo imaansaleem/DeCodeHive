@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5DChjZ8mHutj8tiDCS7bi6mNvleSgAw8FrHMvj1pbd+s1VKBWRSLLYBCGXbEVDMir4Jw+8Xjq7Tiw+ljRAkSoA==",
+  "dgSpecHash": "02FFECZXloIZ1lGdUhqRO0DGYDWdqHlzpdYi5gZlO0+NO15AH0yqZSiDRiuTIGA+c+JIUKmZ+VWFpv5ilZji0Q==",
   "success": true,
-  "projectFilePath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\EcommerceWeb\\EcommerceWeb.csproj",
+  "projectFilePath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\EcommerceWeb\\EcommerceWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imaan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Imaan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
