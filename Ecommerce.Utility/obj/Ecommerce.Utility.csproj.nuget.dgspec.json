@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {}
+    "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {}
   },
   "projects": {
-    "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
+    "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
+        "projectUniqueName": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
         "projectName": "Ecommerce.Utility",
-        "projectPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
+        "projectPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
         "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester7\\EAD\\Project\\Ecommerce\\Ecommerce.Utility\\obj\\",
+        "outputPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
