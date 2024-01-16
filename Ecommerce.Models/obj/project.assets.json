@@ -6911,19 +6911,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Imaan\\.nuget\\packages\\": {}
+    "C:\\Users\\umair\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Models\\Ecommerce.Models.csproj",
+      "projectUniqueName": "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Models\\Ecommerce.Models.csproj",
       "projectName": "Ecommerce.Models",
-      "projectPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Models\\Ecommerce.Models.csproj",
-      "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Models\\obj\\",
+      "projectPath": "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Models\\Ecommerce.Models.csproj",
+      "packagesPath": "C:\\Users\\umair\\.nuget\\packages\\",
+      "outputPath": "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\umair\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6974,7 +6974,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

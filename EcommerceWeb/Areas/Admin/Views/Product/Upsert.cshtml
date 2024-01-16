@@ -74,7 +74,7 @@
                         </div>
 
                         <div class="form-floating py-2 col-12">
-                            <input type="file" name="file" class="form-control border-0 shadow" />
+                            <input type="file" name="file" id="imageUpload" accept=".jpg, .jpeg, .png" class="form-control border-0 shadow" />
                             <label asp-for="Product.ImageUrl" class="ms-2"></label>
                         </div>
 
@@ -122,6 +122,22 @@
 
     </div>
 </div>
+
+<script>
+    document.getElementById('imageUpload').addEventListener('change', function () {
+        var fileInput = this;
+        var acceptedTypes = ['image/jpeg', 'image/jpg', 'image/png'];
+
+        if (fileInput.files.length > 0) {
+            var fileType = fileInput.files[0].type;
+
+            if (!acceptedTypes.includes(fileType)) {
+                alert('Please select a valid JPG or PNG image file.');
+                fileInput.value = ''; // Clear the selected file
+            }
+        }
+    });
+</script>
 
 <!--javascript code-->
 @section Scripts{

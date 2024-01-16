@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {}
+    "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {}
   },
   "projects": {
-    "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
+    "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
+        "projectUniqueName": "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
         "projectName": "Ecommerce.Utility",
-        "projectPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
-        "packagesPath": "C:\\Users\\Imaan\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester7\\EAD\\SemesterProject\\DeCodeHive\\Ecommerce.Utility\\obj\\",
+        "projectPath": "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Utility\\Ecommerce.Utility.csproj",
+        "packagesPath": "C:\\Users\\umair\\.nuget\\packages\\",
+        "outputPath": "E:\\EAD_Project\\DeCodeHive\\Ecommerce.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Imaan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\umair\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
