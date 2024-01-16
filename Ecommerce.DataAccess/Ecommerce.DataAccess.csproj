@@ -22,8 +22,4 @@
     <ProjectReference Include="..\Ecommerce.Utility\Ecommerce.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

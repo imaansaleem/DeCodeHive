@@ -177,7 +177,7 @@ namespace EcommerceWeb.Areas.Customer.Controllers
                 //remove from cart
                 _unitOfWork.ShoppingCart.Remove(cartFromDb);
             }
-            else
+            else if(cartFromDb.Count > 1)
             {
                 cartFromDb.Count -= 1;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);

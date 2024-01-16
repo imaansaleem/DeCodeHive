@@ -168,9 +168,6 @@ namespace Ecommerce.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Carrier")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("City")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -188,15 +185,6 @@ namespace Ecommerce.DataAccess.Migrations
                     b.Property<double>("OrderTotal")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("PaymentDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateOnly>("PaymentDueDate")
-                        .HasColumnType("date");
-
-                    b.Property<string>("PaymentIntentId")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PaymentStatus")
                         .HasColumnType("nvarchar(max)");
 
@@ -208,18 +196,12 @@ namespace Ecommerce.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ShippingDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("State")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("StreetAddress")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TrackingNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

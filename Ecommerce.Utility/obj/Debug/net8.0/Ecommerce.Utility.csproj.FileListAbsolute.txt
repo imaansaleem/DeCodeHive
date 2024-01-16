@@ -34,3 +34,16 @@ D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\E
 D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\refint\Ecommerce.Utility.dll
 D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.pdb
 D:\Semester7\EAD\SemesterProject\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\ref\Ecommerce.Utility.dll
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.deps.json
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.dll
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\bin\Debug\net8.0\Ecommerce.Utility.pdb
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.csproj.AssemblyReference.cache
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfoInputs.cache
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.AssemblyInfo.cs
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.csproj.CoreCompileInputs.cache
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.sourcelink.json
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.dll
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\refint\Ecommerce.Utility.dll
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\Ecommerce.Utility.pdb
+E:\EAD_Project\DeCodeHive\Ecommerce.Utility\obj\Debug\net8.0\ref\Ecommerce.Utility.dll
